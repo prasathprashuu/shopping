@@ -1,14 +1,19 @@
 package com.hybris.shopping.Services
 
-import com.hybris.shopping.Model.Catogory
+import com.hybris.shopping.Model.Category
 import com.hybris.shopping.Model.Product
 import java.util.*
 
 object DataService {
     val categores = listOf(
-        Catogory("Shoe","shoeimage"),
-        Catogory("Bat","batimage"),
-        Catogory("Helmet","helmetimage")
+        Category("Shoe","shoeimage"),
+        Category("Bat","batimage"),
+        Category("Helmet","helmetimage"),
+        Category("Test1","batimage"),
+        Category("Test2","helmetimage"),
+        Category("Test2","helmetimage"),
+        Category("Test3","helmetimage"),
+        Category("Test4","helmetimage")
     )
 
     val shoe= listOf(
